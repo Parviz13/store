@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+  
+    <title>Online magazine</title>
+</head>
+
+<body>
+    
+<div class="baskets">
+    <h1>В корзине: <span class="zero">0</span> товар</h1>
+</div>
+<div class="btns">
+    <button class="btn" id="btn5" >Показать первые 5</button>
+    <button class="btn" id="btn">Показать все</button>
+</div>
+
+    <div class="container">
+
+
+    </div>
+
+    <div class="container-cart">
+
+      <div class="cart-item">
+        <div class="left">
+            <img src="" alt="">
+            <div class="info">
+                <h4 >man's clothing</h4>
+                <span>price 40000</span>
+            </div>
+        </div>
+        <div class="right">
+            <div class="counter">
+                <button id="p">+</button>
+                <b id="o">0</b>
+                <button id="m">-</button>
+            </div>
+            <button class="remove-elem">
+                delete
+            </button>
+        </div>
+    </div>
+  
+    </div>
+    <center>
+       <button id="clear">Clear</button>
+    </center>
+  
+
+
+    <style>
+ .container-cart {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 80%;
+      margin: 0 auto;
+      padding-bottom: 50px;
+  }
+
+
+  .cart-item {
+      width: 100%;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0px 0px 10px #c4c4c4;
+  }
+  .cart-item img {
+      background-color: antiquewhite;
+      width: 200px;
+      height: 100%;
+      object-fit: contain;
+  }
+
+  .right, .left {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+  }
+  .right button {
+      padding: 10px;
+  }
+    </style>
+   
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>

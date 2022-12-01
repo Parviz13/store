@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#clear{
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid black;
+  font-size: 20px;
+}
+
+#clear:hover{
+  border: 2px solid blue;
+  color: blue;
+}
+
+
+
+.baskets {
+    text-align: center;
+    padding: 20px;
+}
+
+.h1 {
+    padding-top: 76px;
+    text-align: center;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+.container {
+
+    width: 100%;
+    margin: 20px 20px;
+    display: flex;
+    padding: 50px 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.box img {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.box {
+    border: 2px solid #000;
+    width: 300px;
+ 
+
+}
+
+center{
+  margin: 20px 80px;
+}
+
+.description img{
+    width: 30px;
+    height: 55px;
+}
+
+.description {
+    font-family: 'Gilroy Thin';
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    height: 300px;
+}
+
+b{
+  color: #1F86FF;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+.btn:hover {
+    border: 2px solid gold;
+    color: gold;
+    
+}
+
+.btn {
+    width: 250px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 10px;
+
+}
+
+
+.button {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+
+}
+
+.button_active{
+    transition: 0.5s ease;
+color: white;
+    background-color: #1F86FF;
+
+}
+
+.font_information {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+
+    color: rgba(255, 255, 255, 0.56);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    
+}
+
+.flex_{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
